@@ -20,7 +20,7 @@ Settings = {
     ChargeTime = 3;-- Charge Time In Seconds
     FormType = "g"; -- Form Key
     SpamBeans = true; -- true = will spam beans,false = won't spam beans
-    AutoResetLowKi = true; -- Will reset your character when you are at low ki (Do not use if you are the only player on the TOP)
+    AutoResetLowKi = false; -- Will reset your character when you are at low ki (Do not use if you are the only player on the TOP)
     AutoPunchLowKi = true; -- will auto attack when you are low of ki
     FasterGod = true; -- ENABLE ONLY IF YOU ARE NOT THE ONLY PLAYER ON THE TOP,when your ki is low will reset your character to transform into god
     AutoStats = false;
@@ -31,8 +31,8 @@ Settings = {
     AutoBuyType = "Beans"; -- Beans or Jars
     AutoBuyAmount = 80; -- 80 or 8
     AutoBuyColor = "Red"; -- Red or Green or Blue or Yellow
-    UniGodMode = false; -- (ONLY USE IF YOU ARE WEAK) God / UI / MUI wont work,disable faster god and auto reset low ki if you are alone
-    AnimationFreeze = false; -- Will freeze your animation,in some cases work better
+    UniGodMode = true; -- (ONLY USE IF YOU ARE WEAK) God / UI / MUI wont work,disable faster god and auto reset low ki if you are alone
+    AnimationFreeze = true; -- Will freeze your animation,in some cases work better
     ExtraTime = 0; -- [[DONT CHANGE THIS IF SCRIPT ALREADY WORKS FINE]] Synapse = 0,Krnl = 1-2,Fluxus = 2
     InvisQueue = false; -- You will be invisible on queue
     FPSBoost = false -- The game will look so ugly,but your FPS will improve
